@@ -1,0 +1,38 @@
+@mixin responsive
+  @media all and (max-width: 1024px), all and (orientation: landscape) and (max-width: 1024px)
+    @content
+
+
+@mixin clickable
+    cursor: pointer
+
+    
+@mixin btn($type: none)
+    @include clickable
+    background: #4F2C84
+    border-radius: 8px
+    padding: 14px 22px
+    min-width: 210px
+    font-weight: 500
+    font-size: 16px
+    line-height: 156%
+    letter-spacing: -0.02em
+    color: #FFFFFF
+    text-align: center
+    &:hover
+      color: #FFFFFF
+    @include responsive
+        font-size: 14px
+        min-width: 140px
+    @if $type == light
+      background: #DED3EF
+      color: #4F2C84
+      &:hover
+        color: #4F2C84
+    @if $type == plain
+      background: transparent
+      color: #4F2C84
+      &:hover
+        color: #4F2C84
+        background: unset
+

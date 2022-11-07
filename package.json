@@ -1,0 +1,34 @@
+{
+  "name": "@ndugem45/gulp-pug-sass-starter",
+  "version": "1.0.0",
+  "description": "Starter kit for Templating frontend using Gulp - Pugjs - Sass",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndugem45/gulp-pug-sass-starter.git"
+  },
+  "keywords": [],
+  "author": "ndugem45",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndugem45/gulp-pug-sass-starter/issues"
+  },
+  "homepage": "https://github.com/ndugem45/gulp-pug-sass-starter#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.10",
+    "delete": "^1.1.0",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "my-package": "^0.0.0",
+    "postcss": "^8.4.18",
+    "pug": "^3.0.2",
+    "sass": "^1.56.0"
+  }
+}
