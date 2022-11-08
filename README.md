@@ -28,11 +28,11 @@ Command :
 
 Run project
 ```
-    npm start
+npm start
 ```
 
 Build project
 ```
-    gulp build
+gulp build
 ```
 
