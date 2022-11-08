@@ -8,5 +8,5 @@ A starter project for frontend templating
 Instalation :
 
 ```
-npm install gulp-pug-sass-starter
+npm i @ndugem45/gulp-pug-sass-starter
 ```
