@@ -30,9 +30,6 @@ Command :
     ```
         npm start
     ```
-    ```
-        gulp
-    ```
 
     Build project
     ```
