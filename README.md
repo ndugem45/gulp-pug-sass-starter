@@ -1,15 +1,9 @@
-Gulp-Pug-Sass Starter Project
+
+# Gulp-Pug-Sass Starter Project
 ==============================================================
 
 A starter project for frontend templating
 
-==============================================================
-
-Instalation :
-
-```
-npm i @ndugem45/gulp-pug-sass-starter
-```
 
 Project Structure :
 
@@ -24,18 +18,32 @@ __src
         pages  (sass page files)
 ```
 
-Command :
 
-    Run project
-    ```
-        npm start
-    ```
-    ```
-        gulp
-    ```
+## Installation
 
-    Build project
-    ```
-        gulp build
-    ```
+Install with npm
+
+```bash
+  npm i @ndugem45/gulp-pug-sass-starter
+```
+    
+## Run Locally
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+Build project
+
+```bash
+  gulp build
+```
 
