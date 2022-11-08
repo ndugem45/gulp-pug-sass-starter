@@ -26,13 +26,13 @@ __src
 
 Command :
 
-    Run project
-    ```
-        npm start
-    ```
+Run project
+```
+    npm start
+```
 
-    Build project
-    ```
-        gulp build
-    ```
+Build project
+```
+    gulp build
+```
 
