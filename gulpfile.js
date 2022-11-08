@@ -1,9 +1,6 @@
 const	gulp			= require('gulp'),
 		autoprefixer	= require('autoprefixer'),
-		// bourbon			= require('bourbon').includePaths,
-		// cssnano			= require('cssnano'),
-		del = require('delete'),
-		// imagemin		= require('gulp-imagemin'),
+		del 			= require('delete'),
 		postcss			= require('gulp-postcss'),
 		pug				= require('gulp-pug'),
 		sass			= require('gulp-sass')(require('sass')),
@@ -55,7 +52,6 @@ const cssConfig = {
 function css() {
 	return gulp.src(cssConfig.src)
 		.pipe(sass({
-			// includePaths: ['node_modules', bourbon],
 			outputStyle: 'expanded'
 		}).on('error', sass.logError))
 		.pipe(postcss(cssConfig.postCSS))

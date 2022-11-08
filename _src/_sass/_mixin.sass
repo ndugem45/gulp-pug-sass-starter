@@ -2,14 +2,12 @@
   @media all and (max-width: 1024px), all and (orientation: landscape) and (max-width: 1024px)
     @content
 
-
 @mixin clickable
     cursor: pointer
 
-    
 @mixin btn($type: none)
     @include clickable
-    background: #4F2C84
+    background: white
     border-radius: 8px
     padding: 14px 22px
     min-width: 210px
@@ -17,22 +15,43 @@
     font-size: 16px
     line-height: 156%
     letter-spacing: -0.02em
-    color: #FFFFFF
+    color: black
     text-align: center
     &:hover
-      color: #FFFFFF
+      color: white
+      background: black
     @include responsive
         font-size: 14px
         min-width: 140px
-    @if $type == light
-      background: #DED3EF
-      color: #4F2C84
+    @if $type == dark
+      background: black
+      color: white
       &:hover
-        color: #4F2C84
-    @if $type == plain
-      background: transparent
-      color: #4F2C84
-      &:hover
-        color: #4F2C84
-        background: unset
+        color: black
+        background: white
+
+@mixin flex($direction, $align: null, $justify: null)
+  display: flex
+  flex-direction: $direction
+  @if $align
+    align-items: $align
+  @if $justify
+    justify-content: $justify
+    
+@mixin section
+  width: 100%
+  min-width: 1440px
+  max-width: 100vw
+  position: relative
+  z-index: 1
+
+@mixin container
+  max-width: 1440px
+  position: relative
+  width: 100%
+  margin: auto
+  padding: 0 135px
+  @include responsive
+    padding: 0 20px
+    max-width: 700px
 

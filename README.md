@@ -10,3 +10,32 @@ Instalation :
 ```
 npm i @ndugem45/gulp-pug-sass-starter
 ```
+
+Project Structure :
+
+```
+__site  (html files)
+__src
+    __assets  (all assets files)
+    __pug  (page files)
+        parts  (componets)
+    __sass  (sass files)
+        parts  (sass component files)
+        pages  (sass page files)
+```
+
+Command :
+
+    Run project
+    ```
+        npm start
+    ```
+    ```
+        gulp
+    ```
+
+    Build project
+    ```
+        gulp build
+    ```
+
