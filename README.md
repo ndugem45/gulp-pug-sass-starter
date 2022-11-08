@@ -8,14 +8,18 @@ A starter project for frontend templating
 Project Structure :
 
 ```
-__site  (html files)
-__src
-    __assets  (all assets files)
-    __pug  (page files)
-        parts  (componets)
-    __sass  (sass files)
-        parts  (sass component files)
-        pages  (sass page files)
+|-- site/  (html files)
+|-- src/
+|
+|------ assets/  (all assets files)
+|------ pug  (page files)
+|--------|
+|--------|--- parts  (componets)
+|
+|------ sass  (sass files)
+|--------|
+|--------|--- parts  (sass component files)
+|--------|--- pages  (sass page files)
 ```
 
 
