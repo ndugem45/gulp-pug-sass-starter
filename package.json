@@ -1,6 +1,6 @@
 {
   "name": "@ndugem45/gulp-pug-sass-starter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Starter kit for Templating frontend using Gulp - Pugjs - Sass",
   "main": "gulpfile.js",
   "scripts": {
@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/ndugem45/gulp-pug-sass-starter.git"
   },
-  "keywords": [],
+  "keywords": [
+    "pug",
+    "sass",
+    "gulp"
+  ],
   "author": "ndugem45",
   "license": "ISC",
   "bugs": {
