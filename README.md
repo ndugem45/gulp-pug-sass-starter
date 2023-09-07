@@ -23,13 +23,6 @@ Project Structure :
 ```
 
 
-## Installation
-
-Install with npm
-
-```bash
-  npm i @ndugem45/gulp-pug-sass-starter
-```
     
 ## Run Locally
 
