@@ -41,6 +41,6 @@ Start the server
 Build project
 
 ```bash
-  gulp build
+  npm build
 ```
 
