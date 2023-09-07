@@ -1,6 +1,6 @@
 {
   "name": "@ndugem45/gulp-pug-sass-starter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Starter kit for Templating frontend using Gulp - Pugjs - Sass",
   "main": "gulpfile.js",
   "scripts": {
